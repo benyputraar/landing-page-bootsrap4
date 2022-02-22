@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pleasure</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+    <style>
+      body {
+        padding-top: 56px;
+      }
+      .jumbotron {
+        text-shadow: black 1px 1px;
+      }
+      .background-header {
+        background-image: url("images/banner1.jpg");
+        background-color: #fafbfc;
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      .button-warna {
+        text-shadow: 0px 0px;
+      }
+      .services-style {
+        margin-top: 15px;
+        background-color: #fafbfc;
+      }
+      .text-green {
+        color: green;
+      }
+      .bg-green {
+        background-color: green;
+      }
+      .bg-red {
+        background-color: red;
+      }
+      h2:before,
+      h2:after {
+        background-color: green;
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 18%;
+      }
+      h2::before {
+        right: 0.5em;
+        margin-left: -50%;
+      }
+      h2::after {
+        left: 0.5em;
+        margin-right: -50%;
+      }
+      .button-sekunder {
+        background-color: transparent;
+        border-color: #dbdbdb;
+        color: #0b9b6b;
+      }
+      .button-sekunder:hover {
+        background-color: #0b9b6b;
+        border-color: #dbdbdb;
+        color: #fff;
+      }
+      .cover {
+        background: no-repeat center/cover;
+      }
+      .btn-primer {
+        background-color: #0b9b6b;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Navigasibar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="200" height="50" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcontent" aria-controls="navbarcontent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarcontent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#product" class="nav-link">product</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--header-->
+    <section class="jumbotron jumbotron-fluid background-header">
+      <div class="container-fluid text-center">
+        <h1 class="display3" style="color: aliceblue">PILIHAN TERBAIK MENUJU FASHION TERBAIK</h1>
+        <p class="lead" style="font-weight: bold; color: #fff">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, eligendi alias maiores dolore obcaecati modi quas eius ut vel, repellat molestias delectus.</p>
+        <p><a href="#" class="btn btn-success btn-lg button-warna" role="button">Shopping Now</a></p>
+      </div>
+    </section>
+    <!--service-->
+    <section id="services" class="container-fluid services-style" style="padding-bottom: 5rem">
+      <div class="row text-center">
+        <div class="col-12 pb-4">
+          <h2 class="display-4 text-center mb-5" style="margin-top: 4rem !important">Mengapa disini?</h2>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-circle fa-stack-2x text-green"></i>
+            <i class="fa-solid fa-check fa-stack-1x text-white"></i>
+          </span>
+          <h3 class="mt-4 text-green">100% Original</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-circle fa-stack-2x text-green"></i>
+            <i class="fa-solid fa-shirt fa-stack-1x text-white"></i>
+          </span>
+          <h3 class="mt-4 text-green">Fasilitas Lengkap</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-circle fa-stack-2x text-green"></i>
+            <i class="fa-solid fa-hand-holding-dollar fa-stack-1x text-white"></i>
+          </span>
+          <h3 class="mt-4 text-green">Harga Terjangkau</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-circle fa-stack-2x text-green"></i>
+            <i class="fa-solid fa-thumbs-up fa-stack-1x text-white"></i>
+          </span>
+          <h3 class="mt-4 text-green">Nyaman dipakai</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-12 pt-3 mb-5">
+          <a href="" class="btn text-white bg-green btn-lg" target="blank" href="#" role="button">Selengkapnya</a>
+        </div>
+      </div>
+    </section>
+    <!--product-->
+    <section id="product" class="container-fluid">
+      <div class="row text-center">
+        <div class="col-12 pb-4">
+          <h2 class="display-4 text-center mb-5" style="margin-top: 4rem !important">Product Kami</h2>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" style="max-height: 400px" src="images/catalog 1.png" alt="produk 1" />
+            <div class="card-body" style="min-height: 150px">
+              <h4 class="card-tittle">SWEATER</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn button-sekunder">Detail & Harga</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" style="max-height: 400px" src="images/catalog 2.png" alt="produk 2" />
+            <div class="card-body" style="min-height: 150px">
+              <h4 class="card-tittle">KEMEJA</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn button-sekunder">Detail & Harga</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" style="max-height: 400px" src="images/catalog 3.png" alt="produk 3" />
+            <div class="card-body" style="min-height: 150px">
+              <h4 class="card-tittle">JACKET</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn button-sekunder">Detail & Harga</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--About us-->
+    <section id="about" class="container-fluid">
+      <div class="row text-center">
+        <div class="col-12 pb-4">
+          <h2 class="display-4 text-center mb-5" style="margin-top: 4rem !important">Tentang kami</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-12 col-md-6">
+            <div style="padding: 15px">
+              <h3 class="display-5 text-center text-green mt-3 mb-3">Apa itu Thrifthing?</h3>
+              <p style="text-align: justify">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ipsam fugit magnam veniam, in labore necessitatibus ex quo minima unde nam corporis molestias repudiandae consequatur iure? Accusamus unde, beatae ab, animi dolorem
+                quisquam quia pariatur explicabo amet, quibusdam officiis cupiditate perferendis recusandae eligendi ut veritatis sed autem nobis nisi doloremque laudantium totam veniam temporibus! Commodi optio nemo architecto saepe cumque
+                velit perspiciatis doloremque expedita quas voluptatibus exercitationem consequatur animi, vel odit repellat ratione ut obcaecati, laudantium tempora quae temporibus. Alias error saepe vel impedit libero rerum autem sit,
+                molestias perspiciatis minus, repudiandae, incidunt quae! Nam debitis quidem voluptas, repudiandae voluptatibus sapiente, saepe laudantium nisi odio porro vel possimus fuga praesentium blanditiis voluptate iure quo
+                perferendis placeat consequatur quam numquam?
+              </p>
+              <div class="col-12 pt-3 text-center">
+                <a href="#" class="btn bg-red btn-lg text-white">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="vh-100"><img src="images/banner2.jpg" class="cover" style="margin-top: 1rem" /></div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="vh-100"><img src="images/banner3.jpg" class="cover" /></div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div style="padding: 15px">
+              <h3 class="display-5 text-center text-green mt-3 mb-3">Manfaat Dari Thrifthing?</h3>
+              <p style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia amet officia, veniam impedit dignissimos repellendus corporis accusantium modi tempore quo quidem ea explicabo expedita blanditiis similique dolore ullam ex
+                placeat. At rem sit sed veniam recusandae cupiditate illo aliquid, doloribus ratione odit deleniti officia iusto tempora sequi quod inventore soluta optio atque consequatur ipsum iste, dolore pariatur eum. Numquam ratione,
+                repudiandae blanditiis error quis rem, dolorum ducimus eligendi vel quas molestias perspiciatis quasi alias nihil dicta porro nesciunt magnam nulla culpa ut corporis. Praesentium distinctio accusamus similique rerum animi
+                quo dolor voluptates voluptate porro reprehenderit a quae nulla, possimus quisquam.
+              </p>
+              <div class="col-12 pt-3 text-center">
+                <a href="#" class="btn bg-red btn-lg text-white">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--contact-->
+    <section id="contact" class="container-fluid text-center" style="background-color: #e9f2eb; padding-top: 25px">
+      <h2 class="display-4 pb-4">Hubungi Kami</h2>
+      <p class="lead pb-3">Ingin mengetahui lebih jauh, hubungi kami dengan kontak dibawah ini</p>
+      <a href="#" class="btn btn-primer btn-lg mb-4 text-white">Whatsapp</a>
+    </section>
+
+    <footer class="bg-dark">
+      <div class="col-lg-12" style="padding: 10px">
+        <div style="text-align: center">
+          <a href="#" class="text-light" style="padding: 5px"> <i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-light" style="padding: 5px"> <i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-light" style="padding: 5px"> <i class="fab fa-twitter"></i></a>
+        </div>
+
+        <p class="text-center text-secondary">Copyrgiht &copy Pleasure.snc 2021</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/43bee03152.js" crossorigin="anonymous"></script>
+  </body>
+</html>
